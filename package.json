@@ -1,0 +1,13 @@
+{
+  "name": "dynamic-edge-wholesale-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual Arabic/English responsive wholesale business website for Dynamic Edge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": { "express": "^4.21.2" }
+}
